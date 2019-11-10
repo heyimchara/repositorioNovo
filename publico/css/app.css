@@ -1,0 +1,304 @@
+body {
+    font-family: "Serif","Times New Roman";
+    margin: auto;
+    text-align: justify;
+}
+
+#rodape{
+    padding:1% 0 1% 0;
+}
+.corpinho{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   padding: 2%;
+}
+
+.caixinha{
+    
+}
+
+ #barra_pesquisa{
+ 	margin-top: 29px;
+ }
+ 
+#icon_Minha_conta{
+	margin-top: 29px;
+}
+
+#icon_carrinho{
+    margin-top: 10px;
+}
+#subtopo_inicial{
+    background-color: rgb(242,201,251);	
+    width: 100%;
+    height: 29px;
+}
+
+
+ #rodape{
+	text-align:center;
+	padding:1% 0 1% 0;
+}
+
+ #barra_pesquisa{
+ 	margin-top: 29px;
+ }
+#icon_Minha_conta{
+	margin-top: 29px;
+}
+#icon_carrinho{
+	margin-top: 10px;
+}
+.titulo{
+	text-align: center;
+	font-family: "Serif","Times New Roman";
+}
+#linha{
+	height: 1px;
+	width: 650px;
+	background-color: black;
+	margin-top: 37px;
+}
+.subtopo{
+	background-color: rgb(242,201,251);	
+
+}
+.titulo_image{
+	text-align: left;
+	font-family: "Serif","Times New Roman";
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.preço{
+	color: #adadad;
+}
+
+*{
+ margin:0;
+font-family: "Serif","Times New Roman";
+}
+#tudo{
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+#menu1{
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+#certificado{
+	padding:1%;
+}
+#subtopo{
+	background-color: rgb(242,201,251);	
+    width: 100%;
+    height: 29px;
+}
+.titulo{
+	text-align: center;
+	font-family: "Serif","Times New Roman";
+}
+
+
+#rodape{
+	text-align:center;
+      padding:1% 0 1% 0;
+	 }
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */ }
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers (opinionated).
+     */
+body {
+  margin: 0; }
+
+/**
+     * Add the correct display in IE 9-.
+     */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+     * Correct the font size and margin on `h1` elements within `section` and
+     * `article` contexts in Chrome, Firefox, and Safari.
+     */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+       ========================================================================== */
+/**
+     * Add the correct display in IE 9-.
+     */
+figcaption,
+figure {
+  display: block; }
+
+/**
+     * Add the correct margin in IE 8.
+     */
+figure {
+  margin: 1em 40px; }
+
+/**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+     * Add the correct display in IE.
+     */
+main {
+  display: block; }
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Links
+       ========================================================================== */
+/**
+     * 1. Remove the gray background on active links in IE 10.
+     * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+     */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+     * Remove the outline on focused links when they are also active or hovered
+     * in all browsers (opinionated).
+     */
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/* Text-level semantics
+       ========================================================================== */
+/**
+     * 1. Remove the bottom border in Firefox 39-.
+     * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+     */
+#barra_pesquisa{
+	border-radius:19px;
+	border-color:black;
+	
+}
+.e{
+	width:27%;
+}
+.m{
+	width:9%;
+}
+#logo{
+	width: 126px;
+}
+#icone{
+	width: 83px;
+	margin-left: 10px;
+}
+#p1{
+    width: 83px;
+    display: inline;
+    font-size:27px;
+}
+#sacola{
+	    width: 82px
+}
+#topo{
+	background-color: rgb(194,56,235);
+}
+*{
+	margin: 0;
+         font-family: "Serif","Times New Roman";
+}
+#rodape{
+		  text-align:center;
+		  padding:1% 0 1% 0;
+	 }
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.2
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+@media print, screen and (min-width: 40em) {
+  .reveal, .reveal.tiny, .reveal.small, .reveal.large {
+    right: auto;
+    left: auto;
+    margin: 0 auto; } }
+	
+
+/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+/* Document
+       ========================================================================== */
+/**
+     * 1. Change the default font family in all browsers (opinionated).
+     * 2. Correct the line height in all browsers.
+     * 3. Prevent adjustments of font size after orientation changes in
+     *    IE on Windows Phone and in iOS.
+     */
+
+#cansei{
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+	 #menu1{
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+#certificado{
+	padding:1%;
+}
+#subtopo{
+	background-color: rgb(242,201,251);	
+    width: 100%;
+    height: 29px;
+}
+.titulo{
+	text-align: center;
+	font-family: "Serif","Times New Roman";
+}
+
+.container {
+ 
+}
+
